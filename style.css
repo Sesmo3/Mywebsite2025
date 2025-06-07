@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #0f0f3e, #1a1a4f);
+  color: #ffffff;
+}
+.sidebar {
+  background-color: #111;
+  padding: 20px;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+}
+.sidebar h1.logo {
+  font-size: 26px;
+  background: linear-gradient(to right, #00f, #0ff, #0f0);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: pulse 2s infinite;
+}
+.sidebar nav a {
+  display: block;
+  color: #0ff;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  color: #aaa;
+  font-style: italic;
+}
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
